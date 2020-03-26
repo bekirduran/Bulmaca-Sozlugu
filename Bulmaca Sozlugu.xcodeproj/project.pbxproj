@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962CCDA4241517B600BC98C2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CCDA3241517B600BC98C2 /* AddViewController.swift */; };
+		962CCDA6241554A400BC98C2 /* GuncelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CCDA5241554A400BC98C2 /* GuncelleViewController.swift */; };
+		9631BC07240D5DD4005ED8F0 /* bulmaca.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9631BC06240D5DD4005ED8F0 /* bulmaca.sqlite */; };
+		9631BC0A240D66FA005ED8F0 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9631BC09240D66FA005ED8F0 /* IQKeyboardManagerSwift */; };
 		968AB58523E2AF9A00AFFB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AB58423E2AF9A00AFFB59 /* AppDelegate.swift */; };
 		968AB58723E2AF9A00AFFB59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AB58623E2AF9A00AFFB59 /* SceneDelegate.swift */; };
-		968AB58923E2AF9A00AFFB59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AB58823E2AF9A00AFFB59 /* ViewController.swift */; };
+		968AB58923E2AF9A00AFFB59 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AB58823E2AF9A00AFFB59 /* MainViewController.swift */; };
 		968AB58C23E2AF9A00AFFB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968AB58A23E2AF9A00AFFB59 /* Main.storyboard */; };
 		968AB58E23E2AFA300AFFB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968AB58D23E2AFA300AFFB59 /* Assets.xcassets */; };
 		968AB59123E2AFA300AFFB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968AB58F23E2AFA300AFFB59 /* LaunchScreen.storyboard */; };
 		968AB59C23E2AFA400AFFB59 /* Bulmaca_SozluguTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AB59B23E2AFA400AFFB59 /* Bulmaca_SozluguTests.swift */; };
 		968AB5A723E2AFA400AFFB59 /* Bulmaca_SozluguUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AB5A623E2AFA400AFFB59 /* Bulmaca_SozluguUITests.swift */; };
+		96F67A6223E2C65B00C354B1 /* KelimeHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A6123E2C65B00C354B1 /* KelimeHucreTableViewCell.swift */; };
+		96F67A6423E2CBD100C354B1 /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A6323E2CBD100C354B1 /* DetayViewController.swift */; };
+		96F67A6623E2CCC500C354B1 /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A6523E2CCC500C354B1 /* Kelimeler.swift */; };
+		96F67A7523E2E6A100C354B1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A6A23E2E6A000C354B1 /* FMResultSet.m */; };
+		96F67A7623E2E6A100C354B1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A6D23E2E6A100C354B1 /* FMDatabase.m */; };
+		96F67A7723E2E6A100C354B1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A6F23E2E6A100C354B1 /* FMDatabasePool.m */; };
+		96F67A7823E2E6A100C354B1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A7223E2E6A100C354B1 /* FMDatabaseAdditions.m */; };
+		96F67A7923E2E6A100C354B1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A7323E2E6A100C354B1 /* FMDatabaseQueue.m */; };
+		96F67A7D23E2E76000C354B1 /* KelimelerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F67A7C23E2E76000C354B1 /* KelimelerDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		962CCDA3241517B600BC98C2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		962CCDA5241554A400BC98C2 /* GuncelleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuncelleViewController.swift; sourceTree = "<group>"; };
+		9631BC06240D5DD4005ED8F0 /* bulmaca.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bulmaca.sqlite; sourceTree = "<group>"; };
 		968AB58123E2AF9A00AFFB59 /* Bulmaca Sozlugu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bulmaca Sozlugu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968AB58423E2AF9A00AFFB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968AB58623E2AF9A00AFFB59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		968AB58823E2AF9A00AFFB59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		968AB58823E2AF9A00AFFB59 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		968AB58B23E2AF9A00AFFB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		968AB58D23E2AFA300AFFB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968AB59023E2AFA300AFFB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,23 @@
 		968AB5A223E2AFA400AFFB59 /* Bulmaca SozluguUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulmaca SozluguUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968AB5A623E2AFA400AFFB59 /* Bulmaca_SozluguUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulmaca_SozluguUITests.swift; sourceTree = "<group>"; };
 		968AB5A823E2AFA400AFFB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F67A6123E2C65B00C354B1 /* KelimeHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeHucreTableViewCell.swift; sourceTree = "<group>"; };
+		96F67A6323E2CBD100C354B1 /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+		96F67A6523E2CCC500C354B1 /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+		96F67A6823E2E66C00C354B1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		96F67A6923E2E69F00C354B1 /* Bulmaca Sozlugu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bulmaca Sozlugu-Bridging-Header.h"; sourceTree = "<group>"; };
+		96F67A6A23E2E6A000C354B1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		96F67A6B23E2E6A000C354B1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		96F67A6C23E2E6A000C354B1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		96F67A6D23E2E6A100C354B1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		96F67A6E23E2E6A100C354B1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		96F67A6F23E2E6A100C354B1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		96F67A7023E2E6A100C354B1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		96F67A7123E2E6A100C354B1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		96F67A7223E2E6A100C354B1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		96F67A7323E2E6A100C354B1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		96F67A7423E2E6A100C354B1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		96F67A7C23E2E76000C354B1 /* KelimelerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimelerDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9631BC0A240D66FA005ED8F0 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +110,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		962D76B723FFE90D00407C6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				968AB58A23E2AF9A00AFFB59 /* Main.storyboard */,
+				968AB58F23E2AFA300AFFB59 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		962D76B823FFE92800407C6A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				96F67A6523E2CCC500C354B1 /* Kelimeler.swift */,
+				96F67A6123E2C65B00C354B1 /* KelimeHucreTableViewCell.swift */,
+				96F67A7C23E2E76000C354B1 /* KelimelerDao.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		962D76B923FFE95F00407C6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96F67A6323E2CBD100C354B1 /* DetayViewController.swift */,
+				968AB58823E2AF9A00AFFB59 /* MainViewController.swift */,
+				962CCDA3241517B600BC98C2 /* AddViewController.swift */,
+				962CCDA5241554A400BC98C2 /* GuncelleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		968AB57823E2AF9A00AFFB59 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +147,7 @@
 				968AB59A23E2AFA300AFFB59 /* Bulmaca SozluguTests */,
 				968AB5A523E2AFA400AFFB59 /* Bulmaca SozluguUITests */,
 				968AB58223E2AF9A00AFFB59 /* Products */,
+				96F67A6723E2E66B00C354B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +164,25 @@
 		968AB58323E2AF9A00AFFB59 /* Bulmaca Sozlugu */ = {
 			isa = PBXGroup;
 			children = (
+				9631BC06240D5DD4005ED8F0 /* bulmaca.sqlite */,
+				96F67A6B23E2E6A000C354B1 /* FMDatabase.h */,
+				96F67A6D23E2E6A100C354B1 /* FMDatabase.m */,
+				96F67A7023E2E6A100C354B1 /* FMDatabaseAdditions.h */,
+				96F67A7223E2E6A100C354B1 /* FMDatabaseAdditions.m */,
+				96F67A6E23E2E6A100C354B1 /* FMDatabasePool.h */,
+				96F67A6F23E2E6A100C354B1 /* FMDatabasePool.m */,
+				96F67A7123E2E6A100C354B1 /* FMDatabaseQueue.h */,
+				96F67A7323E2E6A100C354B1 /* FMDatabaseQueue.m */,
+				96F67A6C23E2E6A000C354B1 /* FMDB.h */,
+				96F67A7423E2E6A100C354B1 /* FMResultSet.h */,
+				96F67A6A23E2E6A000C354B1 /* FMResultSet.m */,
+				96F67A6923E2E69F00C354B1 /* Bulmaca Sozlugu-Bridging-Header.h */,
 				968AB58423E2AF9A00AFFB59 /* AppDelegate.swift */,
 				968AB58623E2AF9A00AFFB59 /* SceneDelegate.swift */,
-				968AB58823E2AF9A00AFFB59 /* ViewController.swift */,
-				968AB58A23E2AF9A00AFFB59 /* Main.storyboard */,
 				968AB58D23E2AFA300AFFB59 /* Assets.xcassets */,
-				968AB58F23E2AFA300AFFB59 /* LaunchScreen.storyboard */,
+				962D76B823FFE92800407C6A /* Modal */,
+				962D76B723FFE90D00407C6A /* View */,
+				962D76B923FFE95F00407C6A /* Controller */,
 				968AB59223E2AFA300AFFB59 /* Info.plist */,
 			);
 			path = "Bulmaca Sozlugu";
@@ -128,6 +206,14 @@
 			path = "Bulmaca SozluguUITests";
 			sourceTree = "<group>";
 		};
+		96F67A6723E2E66B00C354B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F67A6823E2E66C00C354B1 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +230,9 @@
 			dependencies = (
 			);
 			name = "Bulmaca Sozlugu";
+			packageProductDependencies = (
+				9631BC09240D66FA005ED8F0 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Bulmaca Sozlugu";
 			productReference = 968AB58123E2AF9A00AFFB59 /* Bulmaca Sozlugu.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +285,7 @@
 				TargetAttributes = {
 					968AB58023E2AF9A00AFFB59 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					968AB59623E2AFA300AFFB59 = {
 						CreatedOnToolsVersion = 11.1;
@@ -216,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 968AB57823E2AF9A00AFFB59;
+			packageReferences = (
+				9631BC08240D66FA005ED8F0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 968AB58223E2AF9A00AFFB59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +328,7 @@
 				968AB59123E2AFA300AFFB59 /* LaunchScreen.storyboard in Resources */,
 				968AB58E23E2AFA300AFFB59 /* Assets.xcassets in Resources */,
 				968AB58C23E2AF9A00AFFB59 /* Main.storyboard in Resources */,
+				9631BC07240D5DD4005ED8F0 /* bulmaca.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +353,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968AB58923E2AF9A00AFFB59 /* ViewController.swift in Sources */,
+				96F67A6623E2CCC500C354B1 /* Kelimeler.swift in Sources */,
+				968AB58923E2AF9A00AFFB59 /* MainViewController.swift in Sources */,
+				96F67A7523E2E6A100C354B1 /* FMResultSet.m in Sources */,
 				968AB58523E2AF9A00AFFB59 /* AppDelegate.swift in Sources */,
+				96F67A7723E2E6A100C354B1 /* FMDatabasePool.m in Sources */,
+				96F67A6223E2C65B00C354B1 /* KelimeHucreTableViewCell.swift in Sources */,
+				96F67A6423E2CBD100C354B1 /* DetayViewController.swift in Sources */,
 				968AB58723E2AF9A00AFFB59 /* SceneDelegate.swift in Sources */,
+				96F67A7923E2E6A100C354B1 /* FMDatabaseQueue.m in Sources */,
+				96F67A7623E2E6A100C354B1 /* FMDatabase.m in Sources */,
+				96F67A7823E2E6A100C354B1 /* FMDatabaseAdditions.m in Sources */,
+				962CCDA4241517B600BC98C2 /* AddViewController.swift in Sources */,
+				962CCDA6241554A400BC98C2 /* GuncelleViewController.swift in Sources */,
+				96F67A7D23E2E76000C354B1 /* KelimelerDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +539,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYA562XNS5;
 				INFOPLIST_FILE = "Bulmaca Sozlugu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.Bulmaca-Sozlugu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bulmaca Sozlugu/Bulmaca Sozlugu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,14 +561,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYA562XNS5;
 				INFOPLIST_FILE = "Bulmaca Sozlugu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.Bulmaca-Sozlugu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bulmaca Sozlugu/Bulmaca Sozlugu-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -584,6 +698,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9631BC08240D66FA005ED8F0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9631BC09240D66FA005ED8F0 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9631BC08240D66FA005ED8F0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 968AB57923E2AF9A00AFFB59 /* Project object */;
 }
